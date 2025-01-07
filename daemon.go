@@ -59,7 +59,7 @@ func notify(input string) {
 	call := obj.Call(
 		"org.freedesktop.Notifications.Notify",
 		0,
-		"",
+		"System Updater",
 		uint32(0),
 		icon,
 		message,
